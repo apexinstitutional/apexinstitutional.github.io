@@ -1,0 +1,15 @@
+# https://apexinstitutional.github.io/robots.txt
+
+User-agent: *
+Allow: /
+
+# Disallow admin or sensitive paths
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+
+# Crawl delay
+Crawl-delay: 10
+
+# Sitemap location
+Sitemap: https://apexinstitutional.github.io/sitemap.xml
